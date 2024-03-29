@@ -11,6 +11,7 @@ import Checkout from '../src/scenes/checkout/Checkout'
 import Conformation from '../src/scenes/checkout/Conformation'
 import Navbar from './scenes/global/Navbar'
 import CartMenu from './scenes/global/CartMenu'
+import Footer from './scenes/global/Footer'
 
 const ScrollToTop = () => {
   const { pathname } = useLocation();
@@ -34,6 +35,7 @@ function App() {
             <Route path="checkout/success" element={<Conformation />} />
         </Routes>
         <CartMenu />
+        <Footer />
     </BrowserRouter>
   </div>;
 }
