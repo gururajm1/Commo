@@ -44,7 +44,7 @@ const Footer = () => {
                 <Typography mb="30px">Help Center</Typography>
                 <Typography mb="30px">Track Your Order</Typography>
                 <Typography mb="30px">Corporate & Bulk Purchasing</Typography>
-                <Typography mb="30px">Returnss & Refunds</Typography>
+                <Typography mb="30px">Returns & Refunds</Typography>
             </Box>
 
             <Box width="clamp(20%, 25%, 30%)">
@@ -53,7 +53,7 @@ const Footer = () => {
                 </Typography>
                 <Typography mb="30px">Manufacturing Address: <br/>Raj desai street, near Bangalore King's Palace , Livingston Road, Bangalore - 641654</Typography>
                 <Typography mb="30px">Email commo2004@gmail.com</Typography>
-                <Typography mb="30px">Phone: (+91)111 222 333</Typography>
+                <Typography mb="30px">Phone: (+91) 111 222 333</Typography>
             </Box>
         </Box>
     </Box>

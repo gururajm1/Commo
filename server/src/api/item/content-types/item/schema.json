@@ -15,24 +15,19 @@
     "name": {
       "type": "string"
     },
-    "shortDescription": {
-      "type": "blocks"
-    },
-    "longDescription": {
-      "type": "blocks"
-    },
     "price": {
       "type": "decimal"
     },
     "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "category": {
       "type": "enumeration",
@@ -41,6 +36,12 @@
         "bestSellers",
         "topRated"
       ]
+    },
+    "shortDescription": {
+      "type": "text"
+    },
+    "short": {
+      "type": "string"
     }
   }
 }
